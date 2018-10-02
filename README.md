@@ -1,39 +1,16 @@
-# Blockchain Data
-
-Blockchain has the potential to change the way that the world approaches data. Develop Blockchain skills by understanding the data model behind Blockchain by developing your own simplified private blockchain.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+# Creating a Private Blockchain with Node.js
 
 ### Prerequisites
 
-Installing Node and NPM is pretty straightforward using the installer package available from the (Node.js® web site)[https://nodejs.org/en/].
+1. Install Node and NPM using the installer package available from the (Node.js® web site)[https://nodejs.org/en/].
 
-### Configuring your project
+### Testing
 
-- Use NPM to initialize your project and create package.json to store project dependencies.
-```
-npm init
-```
-- Install crypto-js with --save flag to save dependency to our package.json file
-```
-npm install crypto-js --save
-```
-- Install level with --save flag
-```
-npm install level --save
-```
-
-## Testing
-
-To test code:
-1: Open a command prompt or shell terminal after install node.js.
-2: Enter a node session, also known as REPL (Read-Evaluate-Print-Loop).
-```
-node
-```
-3: Copy and paste your code into your node session
+1. Run `npm install` to intall dependencies. This project has two dependencies:
+  * crypto-js
+  * level
+2. Run `node` from the command prompt to launch Node.js REPL.
+3: Copy and paste code into the node session
 4: Instantiate blockchain with blockchain variable
 ```
 let blockchain = new Blockchain();
